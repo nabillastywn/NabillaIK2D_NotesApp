@@ -61,7 +61,7 @@ const loginpage = ({ navigation, ...props }) => {
                             marginTop: 30
                         }} placeholder='Enter Your Username'
                              />
-                        <TextInput style={{
+                        <TextInput secureTextEntry style={{
                            padding: 20,
                            paddingTop: 20,
                            width: '30%',
@@ -80,7 +80,7 @@ const loginpage = ({ navigation, ...props }) => {
                            borderRadius: 5,
                            height: 50,
                            alignSelf: 'center',
-                           marginTop: 30 
+                           marginTop: 30, 
                         }} placeholder='Enter Your Password'
                              />
                         <TouchableOpacity style={{
